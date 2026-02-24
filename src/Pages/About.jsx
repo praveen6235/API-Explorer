@@ -1,3 +1,5 @@
+import about from '../assets/AboutApi.avif'
+
 export default function About() {
   return (
     <div className="about-page">
@@ -12,7 +14,7 @@ export default function About() {
 
         <div className="col-md-6 text-center">
           <img
-            src="src/assets/AboutApi.avif"
+            src={about}
             alt="about"
             className="img-fluid"
             width="500"
