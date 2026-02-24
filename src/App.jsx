@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -18,7 +18,7 @@ import Food from "./Pages/api/Food";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
 
         <Routes>
@@ -36,6 +36,6 @@ export default function App() {
         </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
